@@ -18,7 +18,7 @@ function App() {
     <div className="content-wrapper">
       <header className="h-[75vh] bg-blue-700">
         <nav className="flex justify-between bg-zinc-700 text-white relative">
-          <p className="text-red-400 text-4xl py-6 pl-6">REXGRID</p>
+          <p className="text-red-700 text-4xl py-6 pl-6">REXGRID</p>
           <div className="flex justify-evenly mr-8 py-7">
             <ul className="pr-8 text-lg uppercase hidden lg:block">
               <li>Home</li>
@@ -28,7 +28,7 @@ function App() {
               <li>contact</li>
             </ul>
           </div>
-          <BiMenuAltRight className="text-4xl my-5 mr-4 " />
+          <BiMenuAltRight className="text-4xl my-5 mr-5 " />
         </nav>
         <div className="text-white text-left pl-6 pr-20 absolute top-52">
           <p className="text-3xl uppercase">
@@ -106,7 +106,7 @@ function App() {
           in supporting Academic/Public partnerships to educate a diverse group
           of employees and public audiences.{" "}
         </p>
-        <div className="mt-16 flex flex-col w-[10em] ml-[10em]">
+        <div className="mt-16 flex flex-col w-[10em] ml-[8em]">
           <img src={img1} alt="img 1" className="mb-6" />
           <img src={img2} alt="img 2" className="mb-6"/>
           <img src={img3} alt="img 3" className="mb-6"/>
@@ -117,7 +117,7 @@ function App() {
       </section>
       <section className="bg-sky-900 text-white px-6">
         <p className="text-cyan-500 text-4xl pb-7 pt-6">Location</p>
-        <FaMapMarkerAlt className="text-9xl text-gray-300 ml-[1.2em] mb-6" />
+        <FaMapMarkerAlt className="text-9xl text-gray-300 ml-[1em] mb-6" />
           <p className="uppercase mb-10" />
           <p className="text-sm pb-10">We are located in the San Francisco Bay Area. Verse Learning values our client relationships, and sometimes the best way to get to know someone is to meet them in person. Most of our business is from repeat clients located in Northern California, however we also work with clients from across the country and around the globe.</p>
       </section>
