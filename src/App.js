@@ -106,7 +106,7 @@ function App() {
           in supporting Academic/Public partnerships to educate a diverse group
           of employees and public audiences.{" "}
         </p>
-        <div className="mt-16 flex flex-col w-[10em] ml-[8em]">
+        <div className="mt-16 flex flex-col w-[10em] ml-[7em]">
           <img src={img1} alt="img 1" className="mb-6" />
           <img src={img2} alt="img 2" className="mb-6"/>
           <img src={img3} alt="img 3" className="mb-6"/>
