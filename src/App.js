@@ -16,7 +16,7 @@ import "./App.css";
 function App() {
   return (
     <div className="content-wrapper">
-      <header className="h-[75vh] bg-sky-lolo bg-no-repeat">
+      <header className="h-[75vh] bg-sky-lolo bg-cover">
         <nav className="flex justify-between bg-zinc-700 text-white relative">
           <p className="text-red-700 text-4xl py-6 pl-6">REXGRID</p>
           <div className="flex justify-evenly mr-8 py-7">
