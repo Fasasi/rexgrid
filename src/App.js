@@ -16,7 +16,7 @@ import "./App.css";
 function App() {
   return (
     <div className="content-wrapper">
-      <header className="h-[75vh] bg-sky-lolo">
+      <header className="h-[75vh] bg-sky-lolo bg-no-repeat">
         <nav className="flex justify-between bg-zinc-700 text-white relative">
           <p className="text-red-700 text-4xl py-6 pl-6">REXGRID</p>
           <div className="flex justify-evenly mr-8 py-7">
@@ -37,7 +37,7 @@ function App() {
           <p className="text-xs mt-8">Albert Einstein</p>
         </div>
       </header>
-      <section className="bg-stone-800 text-white px-6">
+      <section className="bg-black text-white px-6 bg-[url('../src/images/2217435.webp')] bg-no-repeat">
         <div className="pt-14 text-left">
           <h2 className="text-cyan-500 text-2xl pb-7">Why Choose Us?</h2>
           <p className="text-sm pb-10">
@@ -53,7 +53,7 @@ function App() {
         </div>
         <img src={computer} alt="computer" className="pb-16" />
       </section>
-      <section className="bg-black text-white px-6">
+      <section className="bg-black text-white px-6 bg-[url('../src/images/blackboard-background-fade-half-1500.jpg')] bg-no-repeat">
         <div className="pt-14 text-left">
           <p className="text-cyan-500 text-2xl pb-7">What We Do</p>
           <p className="text-sm pb-10">
@@ -121,6 +121,9 @@ function App() {
           <p className="uppercase mb-10" />
           <p className="text-sm pb-10">We are located in the San Francisco Bay Area. Verse Learning values our client relationships, and sometimes the best way to get to know someone is to meet them in person. Most of our business is from repeat clients located in Northern California, however we also work with clients from across the country and around the globe.</p>
       </section>
+      <footer className="text-gray-500 text-sm pb-7 text-center mt-6 uppercase">
+        <p>Designed by Fasasi Oluwatobi</p>
+      </footer>
       
     </div>
   );
