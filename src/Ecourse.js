@@ -7,7 +7,7 @@ import img6 from "./images/image6.png";
 
 const Ecourse = () => {
   return (
-    <div className="ecourse-wrapper">
+    <div className="bg-white">
       <p className="text-black text-center uppercase py-16 text-2xl">
         Ecourse Sample
       </p>
