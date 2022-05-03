@@ -1,4 +1,4 @@
-// import { BiMenuAltRight } from "react-icons/bi";
+
 import { GiCheckMark } from "react-icons/gi";
 import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 import { BsCameraReels } from "react-icons/bs";
@@ -17,20 +17,7 @@ const Home = () => {
     return (
         
         <div className="content-wrapper">
-        <header className="h-[75vh] bg-sky-lolo bg-cover">
-          {/* <nav className="flex justify-between bg-zinc-700 text-white relative">
-            <p className="text-red-700 text-4xl py-6 pl-6">REXGRID</p>
-            <div className="flex justify-evenly mr-8 py-7">
-              <ul className="pr-8 text-lg uppercase hidden lg:block">
-                <li>Home</li>
-                <li>Ecourses</li>
-                <li>video</li>
-                <li>about</li>
-                <li>contact</li>
-              </ul>
-            </div>
-            <BiMenuAltRight className="text-4xl my-5 mr-5 " />
-          </nav> */}
+        <header className="h-[60vh] bg-sky-lolo bg-cover">
           <div className="text-white text-left pl-6 pr-20 absolute top-52">
             <p className="text-3xl uppercase">
               learning is an experience. everything else is just information.
@@ -123,9 +110,7 @@ const Home = () => {
           <p className="uppercase mb-10" />
           <p className="text-sm pb-10">We are located in the San Francisco Bay Area. Verse Learning values our client relationships, and sometimes the best way to get to know someone is to meet them in person. Most of our business is from repeat clients located in Northern California, however we also work with clients from across the country and around the globe.</p>
         </section>
-        <footer className="text-gray-500 text-sm pb-7 text-center mt-6 uppercase">
-          <p>Designed by Fasasi Oluwatobi</p>
-        </footer>
+        
   
       </div>
     );
