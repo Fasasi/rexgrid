@@ -9,7 +9,7 @@ const About = () => {
     <div className="px-6">
       <p className="uppercase text-center my-16 text-2xl">who is verse learning</p>
       <section className="mb-16">
-        <div className="mb-10 about-image bg-slate-500 h-48 w-48 mx-28 rounded-[50%]"></div>
+        <div className="mb-10 about-image bg-slate-500 h-48 w-48 mx-24 rounded-[50%]"></div>
         <p className="text-gray-400 mb-5">
           Verse Learning was founded in 2016 by Steve Heindl. After graduating
           from San Francisco State University with his M.Ed. in Instructional
