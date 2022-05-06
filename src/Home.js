@@ -29,7 +29,7 @@ const Home = () => {
         <section className="bg-black text-white px-6 bg-[url('../src/images/2217435.webp')] bg-no-repeat">
           <div className="pt-14 text-left">
             <h2 className="text-cyan-500 text-2xl pb-7">Why Choose Us?</h2>
-            <p className="text-sm pb-10">
+            <p className="text-sm pb-10 sm: text-2xl">
               We are a small, agile agency that listens first and then tailors our
               learning design to meet your specific need.We’re with you every step
               of the development process, providing advice and expertise.We enjoy
@@ -40,7 +40,7 @@ const Home = () => {
               Learn More
             </button>
           </div>
-          <img src={computer} alt="computer" className="pb-16" />
+          <img src={computer} alt="computer" className="pb-16 sm: w-[100%]" />
         </section>
         <section className="bg-black text-white px-6 bg-[url('../src/images/blackboard-background-fade-half-1500.jpg')] bg-no-repeat">
           <div className="pt-14 text-left">
@@ -63,13 +63,13 @@ const Home = () => {
             </p>
           </div>
           <div className="text-center">
-            <GiCheckMark className="text-4xl text-cyan-500 ml-[5em] mb-6" />
+            <GiCheckMark className="text-4xl text-cyan-500 ml-[5em] mb-6 sm: ml-[8em]" />
             <p className="uppercase mb-10">instructional design</p>
-            <BsCameraReels className="text-4xl text-cyan-500 ml-[5em] mb-6" />
+            <BsCameraReels className="text-4xl text-cyan-500 ml-[5em] mb-6 sm: ml-[8em]" />
             <p className="uppercase mb-10">video production</p>
-            <RiComputerLine className="text-4xl text-cyan-500 ml-[5em] mb-6" />
+            <RiComputerLine className="text-4xl text-cyan-500 ml-[5em] mb-6 sm: ml-[8em]" />
             <p className="uppercase mb-10">elearning development</p>
-            <HiOutlineDocumentDuplicate className="text-4xl text-cyan-500 ml-[5em] mb-6" />
+            <HiOutlineDocumentDuplicate className="text-4xl text-cyan-500 ml-[5em] mb-6 sm: ml-[8em]" />
             <p className="uppercase mb-10">needs analysis</p>
           </div>
           <div className="text-center">
@@ -88,14 +88,14 @@ const Home = () => {
         </section>
         <section className="px-6">
           <p className="text-gray-500 text-3xl pb-7 text-center mt-6 uppercase">Our clients</p>
-          <p className="text-sm pb-10">
+          <p className="text-sm pb-10 sm: text-lg">
             Our clients include organizations in Higher Education, Life Science,
             Transportation, the Public Sector, Agriculture, and Government. Though
             our business has grown, we have never lost sight of our specialization
             in supporting Academic/Public partnerships to educate a diverse group
-            of employees and public audiences.{" "}
+            of employees and public audiences.
           </p>
-          <div className="mt-16 flex flex-col w-[10em] ml-[7em]">
+          <div className="mt-16 flex flex-col w-[10em] ml-[7em] sm: ml-[13em]">
             <img src={img1} alt="img 1" className="mb-6" />
             <img src={img2} alt="img 2" className="mb-6" />
             <img src={img3} alt="img 3" className="mb-6" />
@@ -106,8 +106,7 @@ const Home = () => {
         </section>
         <section className="bg-sky-900 text-white px-6">
           <p className="text-cyan-500 text-4xl pb-7 pt-6">Location</p>
-          <FaMapMarkerAlt className="text-9xl text-gray-300 ml-[1em] mb-6" />
-          <p className="uppercase mb-10" />
+          <FaMapMarkerAlt className="text-9xl text-gray-300 ml-[1em] mb-6 sm: ml-[0.8em] sm: text-[15rem]" />
           <p className="text-sm pb-10">We are located in the San Francisco Bay Area. Verse Learning values our client relationships, and sometimes the best way to get to know someone is to meet them in person. Most of our business is from repeat clients located in Northern California, however we also work with clients from across the country and around the globe.</p>
         </section>
         
