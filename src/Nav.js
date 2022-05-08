@@ -3,17 +3,19 @@ import { BiMenuAltRight } from "react-icons/bi";
 
 const Nav = () => {
     return ( 
-        <div className="relative">
-        <nav className="flex justify-between bg-zinc-700 text-white relative h-[10vh]">
+        <div>
+        <nav className="flex justify-between bg-zinc-700 text-white h-[10vh]">
         <p className="text-red-700 text-4xl py-4 pl-6">REXGRID</p>
-        <BiMenuAltRight className="text-4xl my-5 mr-5 " />
+        <BiMenuAltRight className="text-4xl my-5 mr-5 lg:hidden " />
+        <div className="hidden lg:flex justify-evenly pt-6">
+            <p className="mb-10 uppercase mr-10">Home</p>
+            <p className="mb-10 uppercase mr-10">Ecourse</p>
+            <p className="mb-10 uppercase mr-10">About</p>
+            <p className="mb-10 uppercase mr-10">Contact</p>
+          </div>
       </nav>
-      <section className="text-center bg-zinc-800 h-[100vh] opacity-95 text-white z-50 fixed top-0 w-[100%] hidden">
-          <p className="text-3xl text-right pt-2 pr-4 mb-10">X</p>
-          <p className="mb-10 uppercase">Home</p>
-          <p className="mb-10 uppercase">Ecourse</p>
-          <p className="mb-10 uppercase">About</p>
-          <p className="mb-10 uppercase">Contact</p>
+      <section className="text-white fixed">
+          
         </section>
         </div>
      );
